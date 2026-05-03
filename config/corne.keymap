@@ -89,7 +89,7 @@
 &trans  &kp V             &kp M             &kp L              &kp C                   &kp P     &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
 &trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y     &kp DOT  &rhomehol RSHIFT N  &lhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
 &trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W     &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
-                                            &trans             &trans                  &trans    &mo 3    &trans              &trans
+                                            &trans             &kp SPACE               &trans    &mo 3    &trans              &trans
             >;
         };
 
@@ -99,7 +99,7 @@
 &trans  &kp V             &kp M             &kp L              &kp C                   &kp P    &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
 &trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y    &kp DOT  &rhomehol RSHIFT N  &lhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
 &trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W    &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
-                                            &trans             &trans                  &mo 3    &trans   &trans              &trans
+                                            &trans             &kp SPACE               &mo 3    &trans   &trans              &trans
             >;
         };
 
@@ -109,7 +109,7 @@
 &trans  &kp V             &kp M             &kp L              &kp C                   &kp P     &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
 &trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y     &kp DOT  &rhomehol RSHIFT N  &lhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
 &trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W     &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
-                                            &trans             &trans                  &trans    &trans   &trans              &trans
+                                            &trans             &kp SPACE               &trans    &trans   &trans              &trans
             >;
         };
 
