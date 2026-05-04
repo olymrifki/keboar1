@@ -86,20 +86,20 @@
         nums {
             display-name = "nums";
             bindings = <
-&trans  &kp V             &kp M             &kp L              &kp C                   &kp P     &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
-&trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y     &kp DOT  &rhomehol RSHIFT N  &lhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
-&trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W     &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
-                                            &trans             &kp SPACE               &trans    &mo 3    &trans              &trans
+&trans  &kp V             &kp M             &kp L              &kp C                   &kp P     &kp EQUAL  &kp N1               &kp N2              &kp N3                   &none                      &trans
+&trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y     &kp N0     &rhomehol RSHIFT N4  &lhometap RCTRL N5  &rhometap RALT NUMBER_6  &rhometap RIGHT_GUI CARET  &trans
+&trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W     &kp MINUS  &kp N7               &kp N8              &kp N9                   &none                      &trans
+                                            &trans             &kp SPACE               &trans    &mo 3      &trans               &trans
             >;
         };
 
         sym {
             display-name = "sym";
             bindings = <
-&trans  &kp V             &kp M             &kp L              &kp C                   &kp P    &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
-&trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y    &kp DOT  &rhomehol RSHIFT N  &lhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
-&trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W    &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
-                                            &trans             &kp SPACE               &mo 3    &trans   &trans              &trans
+&trans  &kp GRAVE            &kp LT               &kp GREATER_THAN       &kp MINUS                   &kp PIPE         &kp DQT    &kp LBRC               &kp RBRC              &kp DLLR             &kp HASH                &trans
+&trans  &lhometap LGUI EXCL  &lhometap LALT STAR  &lhometap LCTRL SLASH  &lhomehol LEFT_SHIFT EQUAL  &kp AMPERSAND    &kp COLON  &rhomehol RSHIFT LPAR  &lhometap RCTRL RPAR  &rhometap RALT SEMI  &rhometap RIGHT_GUI AT  &trans
+&trans  &kp TILDE            &kp PLUS             &kp BSLH               &kp UNDER                   &kp PRCNT        &kp SQT    &kp LBKT               &kp RBKT              &kp CARET            &kp COMMA               &trans
+                                                  &trans                 &kp SPACE                   &mo 3            &trans     &trans                 &trans
             >;
         };
 
