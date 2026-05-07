@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -104,7 +105,7 @@
         sys {
             display-name = "sys";
             bindings = <
-&trans  &bootloader       &sys_reset        &kp L              &kp C                   &kp P     &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
+&trans  &bootloader       &sys_reset        &kp L              &ext_power EP_TOG       &kp P     &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
 &trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y     &kp DOT  &rhomehol RSHIFT N  &rhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
 &trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W     &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
                                             &trans             &kp SPACE               &trans    &trans   &trans              &trans
