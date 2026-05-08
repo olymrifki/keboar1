@@ -75,10 +75,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB   &kp V             &kp M             &kp L              &kp C                   &kp P    &kp X    &kp F               &kp O              &kp U             &kp J                  &kp BSPC
-&kp ESC   &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y    &kp DOT  &rhomehol RSHIFT N  &rhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &kp ENTER
-&sk LGUI  &kp Z             &kp K             &kp Q              &kp G                   &kp W    &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &sk RALT
-                                              &none              &lt 4 SPACE             &mo 1    &mo 2    &kp SPACE           &none
+&kp TAB   &kp V             &kp M             &kp L              &kp C        &kp P    &kp X    &kp F      &kp O              &kp U             &kp J                  &kp BSPC
+&kp ESC   &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &kp D        &kp Y    &kp DOT  &kp N      &rhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &kp ENTER
+&sk LGUI  &kp Z             &kp K             &kp Q              &kp G        &kp W    &kp B    &kp H      &kp SQT            &kp SEMICOLON     &kp COMMA              &sk RALT
+                                              &kp LEFT_SHIFT     &lt 4 SPACE  &mo 1    &mo 2    &kp SPACE  &kp RIGHT_SHIFT
             >;
         };
 
@@ -95,20 +95,20 @@
         sym {
             display-name = "sym";
             bindings = <
-&trans  &kp GRAVE            &kp LT               &kp GREATER_THAN       &kp MINUS                   &kp PIPE         &kp DQT    &kp LBRC               &kp RBRC              &kp DLLR             &kp HASH                &trans
-&trans  &lhometap LGUI EXCL  &lhometap LALT STAR  &lhometap LCTRL SLASH  &lhomehol LEFT_SHIFT EQUAL  &kp AMPERSAND    &kp COLON  &rhomehol RSHIFT LPAR  &rhometap RCTRL RPAR  &rhometap RALT SEMI  &rhometap RIGHT_GUI AT  &trans
-&trans  &kp TILDE            &kp PLUS             &kp BSLH               &kp UNDER                   &kp PRCNT        &kp SQT    &kp LBKT               &kp RBKT              &kp CARET            &kp COMMA               &trans
-                                                  &trans                 &kp SPACE                   &mo 3            &trans     &trans                 &trans
+&kp GRAVE  &kp TILDE            &kp LT                &kp GREATER_THAN      &kp EQUAL     &kp PIPE         &kp DQT    &kp LBRC              &kp RBRC              &kp DLLR             &kp HASH                &trans
+&trans     &lhometap LGUI EXCL  &lhometap LALT SLASH  &lhometap LCTRL BSLH  &kp QUESTION  &kp AMPERSAND    &kp COLON  &kp LEFT_PARENTHESIS  &rhometap RCTRL RPAR  &rhometap RALT SEMI  &rhometap RIGHT_GUI AT  &trans
+&trans     &kp MINUS            &kp PLUS              &kp STAR              &kp UNDER     &kp PRCNT        &kp SQT    &kp LBKT              &kp RBKT              &kp CARET            &kp COMMA               &trans
+                                                      &trans                &kp SPACE     &mo 3            &trans     &trans                &trans
             >;
         };
 
         sys {
             display-name = "sys";
             bindings = <
-&trans  &bootloader       &sys_reset        &kp L              &ext_power EP_TOG       &ext_power EP_ON    &kp X    &kp F               &kp O              &kp U             &kp J                  &trans
-&trans  &lhometap LGUI S  &lhometap LALT T  &lhometap LCTRL R  &lhomehol LEFT_SHIFT D  &kp Y               &kp DOT  &rhomehol RSHIFT N  &rhometap RCTRL A  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
-&trans  &kp Z             &kp K             &kp Q              &kp G                   &kp W               &kp B    &kp H               &kp SQT            &kp SEMICOLON     &kp COMMA              &trans
-                                            &trans             &kp SPACE               &trans              &trans   &trans              &trans
+&trans  &bootloader       &sys_reset               &kp L                     &ext_power EP_TOG  &ext_power EP_ON    &kp X    &kp F              &kp O                        &kp U             &kp J                  &trans
+&trans  &lhometap LGUI S  &lhometap LALT C_BRI_DN  &lhometap LCTRL C_BRI_UP  &kp D              &kp Y               &kp DOT  &kp C_VOLUME_DOWN  &rhometap RCTRL C_VOLUME_UP  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
+&trans  &kp Z             &kp K                    &kp Q                     &kp G              &kp W               &kp B    &kp H              &kp SQT                      &kp SEMICOLON     &kp COMMA              &trans
+                                                   &trans                    &kp SPACE          &trans              &trans   &trans             &trans
             >;
         };
 
