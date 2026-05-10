@@ -105,10 +105,10 @@
         sys {
             display-name = "sys";
             bindings = <
-&trans  &bootloader       &sys_reset               &kp L                     &ext_power EP_TOG  &ext_power EP_ON    &kp X    &kp F              &kp O                        &kp U             &kp J                  &trans
-&trans  &lhometap LGUI S  &lhometap LALT C_BRI_DN  &lhometap LCTRL C_BRI_UP  &kp D              &kp Y               &kp DOT  &kp C_VOLUME_DOWN  &rhometap RCTRL C_VOLUME_UP  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
-&trans  &kp Z             &kp K                    &kp Q                     &kp G              &kp W               &kp B    &kp H              &kp SQT                      &kp SEMICOLON     &kp COMMA              &trans
-                                                   &trans                    &kp SPACE          &trans              &trans   &trans             &trans
+&trans      &bootloader       &sys_reset               &kp L                     &ext_power EP_TOG  &ext_power EP_ON    &kp X    &kp F              &kp O                        &kp U             &kp J                  &trans
+&trans      &lhometap LGUI S  &lhometap LALT C_BRI_DN  &lhometap LCTRL C_BRI_UP  &kp D              &kp Y               &kp DOT  &kp C_VOLUME_DOWN  &rhometap RCTRL C_VOLUME_UP  &rhometap RALT E  &rhometap RIGHT_GUI I  &trans
+&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1             &bt BT_SEL 2              &bt BT_SEL 3       &bt BT_SEL 4        &kp B    &kp H              &kp SQT                      &kp SEMICOLON     &kp COMMA              &trans
+                                                       &trans                    &kp SPACE          &trans              &trans   &trans             &trans
             >;
         };
 
@@ -121,10 +121,10 @@
 
             display-name = "moves";
             bindings = <
-&trans      &kp F1          &kp F2          &kp F3        &kp F4           &kp F5          &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
-&trans      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none           &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &none    &kp F12
-&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none    &trans
-                                            &none         &trans           &none           &mkp LCLK       &mkp RCLK       &mkp MCLK
+&trans  &kp F1          &kp F2          &kp F3        &kp F4           &kp F5    &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
+&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none     &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &none    &kp F12
+&trans  &trans          &trans          &trans        &trans           &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none    &trans
+                                        &none         &trans           &none     &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
     };
